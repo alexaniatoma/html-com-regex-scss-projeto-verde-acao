@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Roboto", sans-serif; 
+}
+
+$button-color:#66BB6A;
+
+header {
+    background-image: url("./img/banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: #fff;
+}
+
+.box-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 110px 40px 40px 40px;
+    display: inline-block;
+    text-align: center;
+    height: inherit;
+
+    h1{
+        font-weight: bold;
+        font-size:3rem;
+        margin-bottom:45px;
+    }
+
+    p{
+        font-size: 1.1rem;
+        width: 45vw;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    button {
+        background-color: $button-color;
+        color:#fff;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+}
+
+.cards {
+    padding: 50px 20px;  
+    background-color: #F1F8E9;  
+    
+}
+
+article {
+    width: 220px;
+    height: 328px;    
+    display: inline-block;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-color: #fff;
+
+    img {
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    h3 {
+        padding: 15px;   
+    }
+
+
+    p {
+        padding: 15px 40px;
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+        
+    }
+
+    button {
+        background-color: $button-color;
+        color:#fff;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 30px;
+
+    }
+}
+
+.cadastro {
+    text-align: center;
+    height: 80vh;
+    background-color:#E8F5E9;
+
+    .form-cadastro {
+        display:inline-block;
+        padding-top: 55px;
+        text-align: center; 
+        padding: 80px 40px;
+        width: 600px;    
+    
+        h3 {
+            color:#2A2A2A;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 0.6rem;
+            color:#767676;
+        }
+
+        form {
+            input[type="text"],
+            input[type="email"],
+            select {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                margin: 15px;
+                border-radius: 10px;
+                border-style: none;
+                color:#8E8E8E;
+                font-weight:500;
+            }
+        }
+    }
+}
+
+.cadastrar{
+    background-color: $button-color;
+    color:#fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    width: 100%;
+    margin: 15px;
+}
+
+footer {
+    background-color:#66BB6A;
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+
+
+
+
